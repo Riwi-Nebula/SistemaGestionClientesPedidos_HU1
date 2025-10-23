@@ -57,6 +57,7 @@ Cada capa tiene responsabilidades específicas para garantizar mantenibilidad, e
       │ │
       │ └── System.Infrastructure/ # Capa de infraestructura (persistencia y acceso a datos)
       │   ├── Migrations/ # Migraciones de la base de datos
+      │   ├── Data/ # Configuración del DbContext
       │   └── Repositories/ # Implementaciones de repositorios
       │
       ├── solution.sln # Solución principal del proyecto

@@ -96,6 +96,8 @@ Describe cómo se relacionan las entidades del dominio dentro de la base de dato
 
 > Define las relaciones entre Customer, Order, OrderDetail y Product para garantizar la integridad referencial de los datos.
 
+[Imagen de la base de datos](./assets/DB.jpeg)
+
 ---
 
 ### 3. Diagrama de Clases
@@ -184,6 +186,13 @@ Refleja la estructura lógica del dominio en términos de clases y asociaciones.
 
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
+```
+
+- `Microsoft.EntityFrameworkCore.Design` → Necesario para scaffolding y generación de migraciones.
+  Versión: **9.0.9**
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.9
 ```
 
 - `Microsoft.EntityFrameworkCore.Tools` → Herramientas de consola para migraciones y actualización de base de datos.

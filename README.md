@@ -30,6 +30,8 @@ El proyecto sigue el patrón **Domain-Driven Design (DDD)**, con separación de 
 | **Domain** | Define las entidades y reglas del dominio. |
 | **Infrastructure** | Gestiona la persistencia de datos y configuración de EF Core. |
 
+> Creacion de proyectos y configuración inicial detallada en [CreationProjects.md](./assets/CreationProjects.md).
+
 ---
 
 ## Entidades del Dominio

@@ -34,6 +34,36 @@ El proyecto sigue el patrón **Domain-Driven Design (DDD)**, con separación de 
 
 ---
 
+## Estructura del Proyecto
+
+El proyecto **SistemaGestiónClientesPedidos** está organizado siguiendo una arquitectura basada en **Domain-Driven Design (DDD)** y el principio de **separación de capas**.  
+Cada capa tiene responsabilidades específicas para garantizar mantenibilidad, escalabilidad y claridad en el código.
+
+      SistemaGestionClientesPedidos/
+      │
+      ├── assets/
+      │ ├── diagrams/ # Diagramas UML y documentos visuales
+      │ ├── CreationProjects.md # Documentación técnica del proyecto
+      │ ├── Taller_HU1_Asp.NET.pdf # Documento guía del taller
+      │ └── UserStory.pdf # Historias de usuario del sistema
+      │
+      ├── SystemGestionClients/
+      │ ├── System.Api/ # Capa de presentación (API REST)
+      │ │
+      │ ├── System.Application/ # Capa de aplicación (servicios y casos de uso)
+      │ │
+      │ ├── System.Domain/ # Capa de dominio (entidades y reglas del negocio)
+      │ │   └── Models/ # Entidades del dominio: Customer, Order, Product, etc.
+      │ │
+      │ └── System.Infrastructure/ # Capa de infraestructura (persistencia y acceso a datos)
+      │   ├── Migrations/ # Migraciones de la base de datos
+      │   └── Repositories/ # Implementaciones de repositorios
+      │
+      ├── solution.sln # Solución principal del proyecto
+      └── README.md # Documentación principal del sistema
+
+---
+
 ## Entidades del Dominio
 
 | Entidad | Descripción | Relaciones |

@@ -1,8 +1,8 @@
-using Microsoft.EntityFrameworkCore;
+using System.Domain.Repositories;
 
 namespace System.Application.Services;
 
-public class CustomerService : DbContext
+public class CustomerService
 {
     
 }

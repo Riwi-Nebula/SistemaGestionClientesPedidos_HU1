@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {}
+    "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {}
   },
   "projects": {
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {
+    "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+        "projectUniqueName": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
         "projectName": "System.Api",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
-        "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
+        "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+        "packagesPath": "/home/faragon/.nuget/packages/",
+        "outputPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sarah/.nuget/NuGet/NuGet.Config"
+          "/home/faragon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
+              "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
+                "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
               },
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
+              "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
+                "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
               }
             }
           }
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -85,6 +91,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,21 +113,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/faragon/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
+    "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+        "projectUniqueName": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
         "projectName": "System.Application",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
-        "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
+        "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+        "packagesPath": "/home/faragon/.nuget/packages/",
+        "outputPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sarah/.nuget/NuGet/NuGet.Config"
+          "/home/faragon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -119,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
+              "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+                "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
               }
             }
           }
@@ -129,7 +149,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -145,26 +171,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/faragon/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+    "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
+        "projectUniqueName": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
         "projectName": "System.Domain",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
-        "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/obj/",
+        "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
+        "packagesPath": "/home/faragon/.nuget/packages/",
+        "outputPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sarah/.nuget/NuGet/NuGet.Config"
+          "/home/faragon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -182,7 +218,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -198,26 +240,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/faragon/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
+    "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
+        "projectUniqueName": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
         "projectName": "System.Infrastructure",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
-        "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/obj/",
+        "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
+        "packagesPath": "/home/faragon/.nuget/packages/",
+        "outputPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sarah/.nuget/NuGet/NuGet.Config"
+          "/home/faragon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -229,8 +281,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
+              "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+                "projectPath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
               }
             }
           }
@@ -239,7 +291,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -271,12 +329,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/faragon/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

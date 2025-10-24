@@ -10,4 +10,5 @@ public class Order
     public Customer? Customer { get; set; }
     [Required] public DateTime OrderDate { get; set; } = DateTime.Today;
     [Required] [MaxLength(50)] public string Status { get; set; } = string.Empty;
+    public ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 }

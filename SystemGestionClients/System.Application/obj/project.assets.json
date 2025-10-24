@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+      "projectUniqueName": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
       "projectName": "System.Application",
-      "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+      "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
       "packagesPath": "/home/sarah/.nuget/packages/",
-      "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
+      "outputPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
-              "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
+            "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+              "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
             }
           }
         }

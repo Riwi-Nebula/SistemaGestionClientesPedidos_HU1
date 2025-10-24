@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {}
+    "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {}
   },
   "projects": {
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {
+    "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+        "projectUniqueName": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
         "projectName": "System.Api",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+        "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
         "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
+        "outputPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
+              "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
+                "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
               },
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
+              "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
+                "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
               }
             }
           }
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,18 +98,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
+    "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+        "projectUniqueName": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
         "projectName": "System.Application",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+        "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
         "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
+        "outputPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -119,8 +124,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
+              "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+                "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
               }
             }
           }
@@ -129,6 +134,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -150,18 +160,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+    "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
+        "projectUniqueName": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
         "projectName": "System.Domain",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
+        "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj",
         "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/obj/",
+        "outputPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -182,6 +192,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -203,18 +218,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
+    "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
+        "projectUniqueName": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
         "projectName": "System.Infrastructure",
-        "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
+        "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj",
         "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/obj/",
+        "outputPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sarah/.nuget/NuGet/NuGet.Config"
@@ -229,8 +244,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
-                "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
+              "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj": {
+                "projectPath": "/home/sarah/Descargas/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Domain/System.Domain.csproj"
               }
             }
           }
@@ -239,6 +254,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -246,6 +266,20 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.9, )"
             },
@@ -276,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/sarah/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

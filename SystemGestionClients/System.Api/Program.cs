@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Configurar Dependencias
-builder.Services.AddSingleton<ICustomerRepositorie, CustomerRepository>(); // Inject Dependence CUSTOMER
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>(); // Inject Dependence CUSTOMER
 
 // Add services to the container.
 builder.Services.AddScoped<CustomerService>(); // Inject Service CUSTOMER

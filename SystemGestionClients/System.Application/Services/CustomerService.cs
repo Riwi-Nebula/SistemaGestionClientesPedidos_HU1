@@ -1,13 +1,12 @@
 using System.Domain.Models;
 using System.Domain.Repositories;
-using Microsoft.EntityFrameworkCore;
 
 namespace System.Application.Services;
 
 public class CustomerService
 {
-    private readonly ICustomerRepositorie _repository;
-    public CustomerService(ICustomerRepositorie repository)
+    private readonly ICustomerRepository _repository;
+    public CustomerService(ICustomerRepository repository)
     {
         _repository = repository;
     }
@@ -17,7 +16,7 @@ public class CustomerService
         return _repository.GetAllAsync();
     }
     
-    public Task<Customer?> GetProductByIdAsync(int id)
+    public Task<Customer?> GetCustomerByIdAsync(int id)
     {
         return _repository.GetByIdAsync(id);
     }

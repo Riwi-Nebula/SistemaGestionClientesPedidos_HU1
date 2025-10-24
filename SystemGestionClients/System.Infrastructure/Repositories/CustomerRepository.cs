@@ -2,11 +2,10 @@ using System.Domain.Models;
 using System.Domain.Repositories;
 using System.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 
 namespace System.Infrastructure.Repositories;
 
-public class CustomerRepository : ICustomerRepositorie
+public class CustomerRepository : ICustomerRepository
 {
     private readonly AppDbContext _dbContext;
     public CustomerRepository(AppDbContext dbContext)

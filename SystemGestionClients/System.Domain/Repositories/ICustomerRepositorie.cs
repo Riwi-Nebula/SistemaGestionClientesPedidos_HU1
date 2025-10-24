@@ -2,7 +2,7 @@ using System.Domain.Models;
 
 namespace System.Domain.Repositories;
 
-public interface ICustomerRepositorie
+public interface ICustomerRepository
 {
     Task<Customer?> GetByIdAsync(int id);
     Task<IEnumerable<Customer>> GetAllAsync();

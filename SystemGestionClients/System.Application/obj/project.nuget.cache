@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZ1WE7Pcg6w=",
+  "dgSpecHash": "MKaZEu53JOw=",
   "success": true,
-  "projectFilePath": "/home/faragon/Desktop/Repos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
-  "expectedPackageFiles": [
-    "/home/faragon/.nuget/packages/microsoft.netcore.app.ref/8.0.21/microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "/home/faragon/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.21/microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

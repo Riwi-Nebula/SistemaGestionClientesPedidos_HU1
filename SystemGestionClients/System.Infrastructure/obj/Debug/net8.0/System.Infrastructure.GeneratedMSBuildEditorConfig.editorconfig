@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = System.Infrastructure
-build_property.ProjectDir = /home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/
+build_property.ProjectDir = /home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

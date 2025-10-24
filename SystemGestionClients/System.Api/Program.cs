@@ -1,4 +1,7 @@
+using System.Application.Services;
+using System.Domain.Repositories;
 using System.Infrastructure.Data;
+using System.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 //Registrar la conexion a la base de datos
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+// Configurar Dependencias
+builder.Services.AddSingleton<ICustomerRepositorie, CustomerRepository>(); // Inject Dependence CUSTOMER
+
 // Add services to the container.
+builder.Services.AddScoped<CustomerService>(); // Inject Service CUSTOMER
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -40,6 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.MapControllers();
 app.UseHttpsRedirection();
 
 var summaries = new[]

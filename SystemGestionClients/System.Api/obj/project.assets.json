@@ -3460,19 +3460,19 @@
     ]
   },
   "packageFolders": {
-    "/home/sarah/.nuget/packages/": {}
+    "/home/kevincsharp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+      "projectUniqueName": "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
       "projectName": "System.Api",
-      "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
-      "packagesPath": "/home/sarah/.nuget/packages/",
-      "outputPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
+      "projectPath": "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/System.Api.csproj",
+      "packagesPath": "/home/kevincsharp/.nuget/packages/",
+      "outputPath": "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/sarah/.nuget/NuGet/NuGet.Config"
+        "/home/kevincsharp/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3484,11 +3484,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
-              "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
+            "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj": {
+              "projectPath": "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Application/System.Application.csproj"
             },
-            "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
-              "projectPath": "/home/sarah/RiderProjects/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
+            "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj": {
+              "projectPath": "/home/kevincsharp/Documentos/SistemaGestionClientesPedidos_HU1/SystemGestionClients/System.Infrastructure/System.Infrastructure.csproj"
             }
           }
         }

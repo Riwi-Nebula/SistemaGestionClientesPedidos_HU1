@@ -14,9 +14,9 @@ public class EfProductRepository : IProductRepository
         _db = db;
     }
     
-    public Task<Product?> GetByIdAsync(int id)
+    public async Task<Product?> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        return await _db.Products.FindAsync(id);
     }
 
     public async Task<IEnumerable<Product>> GetAllAsync()
@@ -31,13 +31,20 @@ public class EfProductRepository : IProductRepository
         await _db.SaveChangesAsync();
     }
 
-    public Task UpdateAsync(Product product)
+    public async Task UpdateAsync(Product product)
     {
-        throw new NotImplementedException();
+        _db.Products.Update(product);
+       await _db.SaveChangesAsync();
     }
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        var product = await _db.Products.FindAsync(id);
+        if (product != null)
+        {
+            _db.Products.Remove(product);
+            await _db.SaveChangesAsync();
+        }
     }
+    
 }

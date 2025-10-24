@@ -44,4 +44,24 @@ public class ProductController : ControllerBase
             return NotFound();
         return Ok(product);
     }
+
+    [HttpPut]
+    public async Task<IActionResult> Put([FromBody] Product product)
+    {
+        await _productService.UpdateProductAsync(product);
+        return Ok();
+
+    }
+
+    [HttpDelete]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var product = await _productService.GetProductByIdAsync(id);
+            if(product!=null) 
+               await _productService.DeleteProductAsync(id);
+            return Ok();
+    }
+    
+    
+    
 }

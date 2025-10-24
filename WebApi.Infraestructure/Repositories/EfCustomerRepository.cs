@@ -16,7 +16,7 @@ public class EfCustomerRepository : ICustomerRepository
         _context = context;
     }
 
-    public async Task<Customer> GetByIdAsync(int id)
+    public async Task<Customer?> GetByIdAsync(int id)
     {
         return await _context.Customers
             .Include(c => c.Orders)

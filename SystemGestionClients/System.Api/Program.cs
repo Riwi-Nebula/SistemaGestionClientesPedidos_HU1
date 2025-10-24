@@ -18,6 +18,7 @@ builder.Services.AddScoped<CustomerService>(); // Inject Service CUSTOMER
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
 
 //Configuracion de la DB
 builder.Services.AddDbContext<AppDbContext>(options =>
